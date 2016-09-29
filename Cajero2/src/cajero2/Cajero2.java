@@ -10,7 +10,7 @@
 	 *
 	 * @author Axel
 	 */
-	public class Cajero {
+	public class Cajero2 {
 	
 
 	    /**

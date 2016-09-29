@@ -17,19 +17,19 @@ package cajero2;
 	    public MenuPrincipal(){
 	        
 	        setLayout(null);
-	        setSize(250, 300);
-	        setLocation(300, 400);
-	        setTitle("Calculadora Simple");
+	        setSize(270, 300);
+	        setLocation(600, 200);
+	        setTitle("CAJERO");
 	        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 	        setResizable(false);
 	
 
-	        pantalla = new JTextField();
+	        pantalla = new JTextField("¡Bienvenido! Escoge la opcion deseada");
 	        pantalla.setLocation(0,0);
-	        pantalla.setSize(300,50);
-	        pantalla.setFont(new Font("Arial", Font.BOLD, 25));
+	        pantalla.setSize(300,40);
+	        pantalla.setFont(new Font("Arial Narrow", Font.ITALIC, 18));
 	        pantalla.setEditable(false);
-	        pantalla.setBackground(Color.WHITE);
+	        pantalla.setBackground(Color.white);
 	        add(pantalla);
 	
 

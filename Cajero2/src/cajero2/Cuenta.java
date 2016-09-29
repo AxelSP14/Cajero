@@ -22,8 +22,8 @@
 	        
 	        setLayout(null);
 	        setSize(250, 300);
-	        setLocation(300, 400);
-	        setTitle("Calculadora Simple");
+	        setLocation(600, 200);
+	        setTitle("CREAR CUENTA");
 	        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 	        setResizable(false);
 	
@@ -43,7 +43,7 @@
 	        IP = new JTextField();
 	        IP.setLocation(55,70);
 	        IP.setSize(120,30);
-	        IP.setFont(new Font("Arial", Font.BOLD, 25));
+	        IP.setFont(new Font("Arial Narrow", Font.ITALIC, 20));
 	        IP.setBackground(Color.WHITE);
 	        add(IP);
 	        
@@ -55,8 +55,8 @@
 	        Pago = new JTextField();
 	        Pago.setLocation(55,130);
 	        Pago.setSize(120,30);
-	        Pago.setFont(new Font("Arial", Font.BOLD, 25));
-	        Pago.setBackground(Color.WHITE);
+	        Pago.setFont(new Font("Arial Narrow", Font.ITALIC, 20));
+	        Pago.setBackground(Color.white);
 	        add(Pago);
 	        
 	        Etiqueta2 = new JLabel("Saldo: ");

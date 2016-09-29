@@ -6,24 +6,24 @@ import java.awt.event.*;
 
 public class Abonar extends JFrame implements ActionListener {
 
-    JButton boton1, boton2, boton3;
+    JButton boton2;
     JTextField pantalla;
 
     public Abonar() {
         
         setLayout(null);
         setSize(250, 300);
-        setLocation(300, 400);
-        setTitle("Calculadora Simple");
+        setLocation(600, 200);
+        setTitle("ABONO");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setResizable(false);
 
         pantalla = new JTextField();
         pantalla.setLocation(0,0);
-        pantalla.setSize(300,50);
-        pantalla.setFont(new Font("Arial", Font.BOLD, 25));
-        pantalla.setEditable(false);
-        pantalla.setBackground(Color.WHITE);
+        pantalla.setSize(300,40);
+        pantalla.setFont(new Font("Arial Narrow", Font.ITALIC, 20));
+        pantalla.setEditable(true);
+        pantalla.setBackground(Color.white);
         add(pantalla);
 
      
